@@ -54,5 +54,6 @@ Route::get('/', function () {
         Route::get('/list', [VideoController::class, 'index'])->name('Videos.update');
         Route::get('/add', [VideoController::class, 'app'])->name('Videos.create');
     });
+
 });
 
