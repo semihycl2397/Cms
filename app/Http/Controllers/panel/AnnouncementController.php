@@ -11,7 +11,7 @@ class AnnouncementController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function index(){
-        return view('panel.Announcements.update');
+        return view('panel.Announcements.index');
     }
 
     public function app(){

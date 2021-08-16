@@ -2,15 +2,15 @@
 <html lang="tr">
 <head>
     <title>Admin's Page</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/bootstrap-responsive.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/fullcalendar.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/matrix-style.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/matrix-media.css')}}" />
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{asset('css/jquery.gritter.css')}}" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/bootstrap-responsive.min.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/fullcalendar.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/matrix-style.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/matrix-media.css')}}"/>
+    <link rel="stylesheet"  href="{{asset('/font-awesome/css/font-awesome.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/jquery.gritter.css')}}"/>
     @yield('css')
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 </head>
@@ -26,7 +26,9 @@
 <!--top-Header-menu-->
 <div id="user-nav" class="navbar navbar-inverse">
     <ul class="nav">
-        <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome User</span><b class="caret"></b></a>
+        <li class="dropdown" id="profile-messages"><a title="" href="#" data-toggle="dropdown"
+                                                      data-target="#profile-messages" class="dropdown-toggle"><i
+                    class="icon icon-user"></i> <span class="text">Welcome User</span><b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
                 <li class="divider"></li>
@@ -35,7 +37,9 @@
                 <li><a href="login"><i class="icon-key"></i> Log Out</a></li>
             </ul>
         </li>
-        <li class="dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span><b class="caret"></b></a>
+        <li class="dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages"
+                                                   class="dropdown-toggle"><i class="icon icon-envelope"></i> <span
+                    class="text">Messages</span><b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li><a class="sAdd" title="" href="#"><i class="icon-plus"></i> new message</a></li>
                 <li class="divider"></li>
@@ -46,8 +50,10 @@
                 <li><a class="sTrash" title="" href="#"><i class="icon-trash"></i> trash</a></li>
             </ul>
         </li>
-        <li class=""><a href="{{route('siteconfig.index')}}"><i class="icon icon-pencil"></i> <span> Settings </span></a></li>
-        <li class=""><a title="" href="login"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+        <li class=""><a href="{{route('siteconfig.index')}}"><i class="icon icon-pencil"></i>
+                <span> Settings </span></a></li>
+        <li class=""><a title="" href="login"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a>
+        </li>
     </ul>
 </div>
 <!--close-top-Header-menu-->
@@ -60,44 +66,44 @@
 <!--sidebar-menu-->
 <div id="sidebar"><a href="/admin" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
     <ul>
-        <li class="active"><a href="/admin"><i class="icon icon-home"></i> <span>Dashboard</span></a> </li>
-        <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i>Menus <span></span> </a>
+        <li class="active"><a href="/admin"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>
+        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Menus <span></span> </a>
             <ul>
                 <li><a href="{{route('Menus.update')}}">Menu List</a></li>
                 <li><a href="{{route('Menus.create')}}">Menu Add</a></li>
             </ul>
-        <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i>Documents <span></span> </a>
+        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Documents <span></span> </a>
             <ul>
                 <li><a href="{{route('Documents.update')}}">Document List</a></li>
                 <li><a href="{{route('Documents.create')}}">Document Add</a></li>
             </ul>
-        <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i>Images <span></span> </a>
+        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Images <span></span> </a>
             <ul>
                 <li><a href="{{route('Images.update')}}">Image List</a></li>
                 <li><a href="{{route('Images.create')}}">Image Add</a></li>
             </ul>
-        <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i>Videos <span></span> </a>
+        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Videos <span></span> </a>
             <ul>
                 <li><a href="{{route('Videos.update')}}">Video List</a></li>
                 <li><a href="{{route('Videos.create')}}">Video Add</a></li>
             </ul>
-        <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i>News <span></span> </a>
+        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>News <span></span> </a>
             <ul>
                 <li><a href="{{route('News.update')}}">New List</a></li>
                 <li><a href="{{route('News.create')}}">New Add</a></li>
             </ul>
-        <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i>Announcements <span></span> </a>
+        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Announcements <span></span> </a>
             <ul>
                 <li><a href="{{route('Announcements.update')}}">Announcement List</a></li>
                 <li><a href="{{route('Announcements.create')}}">Announcement Add</a></li>
             </ul>
-        <li class="submenu"> <a href=""><i class="icon icon-th-list"></i>Communications <span></span> </a>
+        <li class="submenu"><a href=""><i class="icon icon-th-list"></i>Communications <span></span> </a>
             <ul>
                 <li><a href="{{route('Communication.index')}}">Message List</a></li>
             </ul>
         <li><a href="{{route('siteconfig.index')}}"><i class="icon icon-pencil"></i> <span>Site Settings</span></a></li>
 
-        <li class="submenu"> <a href="#"><i class="icon icon-info-sign"></i> <span>Error</span> </a>
+        <li class="submenu"><a href="#"><i class="icon icon-info-sign"></i> <span>Error</span> </a>
             <ul>
                 <li><a href="error403">Error 403</a></li>
                 <li><a href="error404">Error 404</a></li>
@@ -107,36 +113,21 @@
         </li>
     </ul>
 </div>
+
+
 <!--sidebar-menu-->
 
 <!--main-container-part-->
 <div id="content">
     <!--breadcrumbs-->
     <div id="content-header">
-        <div id="breadcrumb"> <a href="/" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a></div>
+        <div id="breadcrumb"><a href="/" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a></div>
 
-</div>
-
+    </div>
     <!--End-breadcrumbs-->
+@yield('content')
 
-    <!--Action boxes-->
-    <div class="container-fluid">
-        <div class="quick-actions_homepage">
-            <ul class="quick-actions">
-                <li class="bg_lb"> <a href="/admin"> <i class="icon-dashboard"></i> My Dashboard </a> </li>
-
-            </ul>
-        </div>
-        </div>
-        <!--End-Action boxes-->
-
-<!--Footer-part-->
-
-<div class="row-fluid">
-    <div id="footer" class="span12"> 2021 &copy; Semih Yücel. </a> </div>
 </div>
-
-<!--end-Footer-part-->
 
 <script src="{{asset('js/excanvas.min.js')}}"></script>
 <script src="{{asset('js/jquery.min.js')}}"></script>
@@ -159,9 +150,6 @@
 <script src="{{asset('js/matrix.popover.js')}}"></script>
 <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
 <script src="{{asset('js/matrix.tables.js')}}"></script>
-    @yield('js')
-
-
-</div>
+@yield('js')
 </body>
 </html>

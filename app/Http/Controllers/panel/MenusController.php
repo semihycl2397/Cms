@@ -12,7 +12,7 @@ class MenusController extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index(){
-        return view('panel.Menus.update');
+        return view('panel.Menus.index');
     }
 
     public function app(){

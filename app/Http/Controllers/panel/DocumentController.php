@@ -12,7 +12,7 @@ class DocumentController extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index(){
-        return view('panel.Documents.update');
+        return view('panel.Documents.index');
     }
 
     public function app(){

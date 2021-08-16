@@ -11,7 +11,7 @@ class VideoController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function index(){
-        return view('panel.Videos.update');
+        return view('panel.Videos.index');
     }
 
     public function app(){

@@ -11,7 +11,7 @@ class NewsController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function index(){
-        return view('panel.News.update');
+        return view('panel.News.index');
     }
 
     public function app(){

@@ -12,7 +12,7 @@ class ImageController extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index(){
-        return view('panel.Images.update');
+        return view('panel.Images.index');
     }
 
     public function app(){
