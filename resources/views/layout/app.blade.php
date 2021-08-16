@@ -69,32 +69,32 @@
         <li class="active"><a href="/admin"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Menus <span></span> </a>
             <ul>
-                <li><a href="{{route('Menus.update')}}">Menu List</a></li>
+                <li><a href="{{route('Menus.index')}}">Menu List</a></li>
                 <li><a href="{{route('Menus.create')}}">Menu Add</a></li>
             </ul>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Documents <span></span> </a>
             <ul>
-                <li><a href="{{route('Documents.update')}}">Document List</a></li>
+                <li><a href="{{route('Documents.index')}}">Document List</a></li>
                 <li><a href="{{route('Documents.create')}}">Document Add</a></li>
             </ul>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Images <span></span> </a>
             <ul>
-                <li><a href="{{route('Images.update')}}">Image List</a></li>
+                <li><a href="{{route('Images.index')}}">Image List</a></li>
                 <li><a href="{{route('Images.create')}}">Image Add</a></li>
             </ul>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Videos <span></span> </a>
             <ul>
-                <li><a href="{{route('Videos.update')}}">Video List</a></li>
+                <li><a href="{{route('Videos.index')}}">Video List</a></li>
                 <li><a href="{{route('Videos.create')}}">Video Add</a></li>
             </ul>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>News <span></span> </a>
             <ul>
-                <li><a href="{{route('News.update')}}">New List</a></li>
+                <li><a href="{{route('News.index')}}">New List</a></li>
                 <li><a href="{{route('News.create')}}">New Add</a></li>
             </ul>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Announcements <span></span> </a>
             <ul>
-                <li><a href="{{route('Announcements.update')}}">Announcement List</a></li>
+                <li><a href="{{route('Announcements.index')}}">Announcement List</a></li>
                 <li><a href="{{route('Announcements.create')}}">Announcement Add</a></li>
             </ul>
         <li class="submenu"><a href=""><i class="icon icon-th-list"></i>Communications <span></span> </a>
@@ -105,10 +105,7 @@
 
         <li class="submenu"><a href="#"><i class="icon icon-info-sign"></i> <span>Error</span> </a>
             <ul>
-                <li><a href="error403">Error 403</a></li>
                 <li><a href="error404">Error 404</a></li>
-                <li><a href="error405">Error 405</a></li>
-                <li><a href="error500">Error 500</a></li>
             </ul>
         </li>
     </ul>

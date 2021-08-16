@@ -27,31 +27,31 @@ Route::get('/', function () {
     });
 
     Route::prefix('/menus')->group(function () {
-        Route::get('/list', [MenusController::class, 'index'])->name('Menus.update');
+        Route::get('/list', [MenusController::class, 'index'])->name('Menus.index');
         Route::get('/add', [MenusController::class, 'app'])->name('Menus.create');
     });
 
     Route::prefix('/news')->group(function () {
-        Route::get('/list', [NewsController::class, 'index'])->name('News.update');
+        Route::get('/list', [NewsController::class, 'index'])->name('News.index');
         Route::get('/add', [NewsController::class, 'app'])->name('News.create');
     });
 
     Route::prefix('/announcements')->group(function () {
-        Route::get('/list', [AnnouncementController::class, 'index'])->name('Announcements.update');
+        Route::get('/list', [AnnouncementController::class, 'index'])->name('Announcements.index');
         Route::get('/add', [AnnouncementController::class, 'app'])->name('Announcements.create');
     });
     Route::prefix('/documents')->group(function () {
-        Route::get('/list', [DocumentController::class, 'index'])->name('Documents.update');
+        Route::get('/list', [DocumentController::class, 'index'])->name('Documents.index');
         Route::get('/add', [DocumentController::class, 'app'])->name('Documents.create');
     });
 
     Route::prefix('/images')->group(function () {
-        Route::get('/list', [ImageController::class, 'index'])->name('Images.update');
+        Route::get('/list', [ImageController::class, 'index'])->name('Images.index');
         Route::get('/add', [ImageController::class, 'app'])->name('Images.create');
     });
 
     Route::prefix('/videos')->group(function () {
-        Route::get('/list', [VideoController::class, 'index'])->name('Videos.update');
+        Route::get('/list', [VideoController::class, 'index'])->name('Videos.index');
         Route::get('/add', [VideoController::class, 'app'])->name('Videos.create');
     });
 
