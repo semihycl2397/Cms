@@ -18,129 +18,129 @@
                                     <div class="actions"> <a title="" class="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a > <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a > <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span2"> <a> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                             </ul>
                             <ul class="thumbnails">
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
-                                <li class="span1"> <a class="thumbnail lightbox_trigger" href="img/gallery/imgbox5.jpg"> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
+                                <li class="span1"> <a class="thumbnail lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="img/gallery/imgbox3.jpg"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox5.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox5.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox1.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox1.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox2.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox2.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox3.jpg')}}" alt="" > </a>
                                     <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
                                 <li class="span1"> <a> <img src="{{asset('img/gallery/imgbox4.jpg')}}" alt="" > </a>
-                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox3.jpg')}}"><i class="icon-search"></i></a> </div>
+                                    <div class="actions"> <a title="" href="#"><i class="icon-pencil"></i></a> <a class="lightbox_trigger" href="{{asset('img/gallery/imgbox4.jpg')}}"><i class="icon-search"></i></a> </div>
                                 </li>
 
                             </ul>
