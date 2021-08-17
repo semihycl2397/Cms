@@ -10,7 +10,7 @@
                 <div class="span12">
                     <div class="widget-box">
                         <div class="widget-title"> <span class="icon"> <i class="icon-picture"></i> </span>
-                            <h5>Gallery</h5>
+                            <h5>Images</h5>
                         </div>
                         <div class="widget-content">
                             <ul class="thumbnails">
@@ -150,8 +150,6 @@
             </div>
         </div>
     </div>
-
-
 
     <!--Footer-part-->
     <div class="row-fluid">
