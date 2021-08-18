@@ -88,14 +88,9 @@
                 <li><a href="{{route('Communication.index')}}">Message List</a></li>
             </ul>
         <li><a href="{{route('siteconfig.index')}}"><i class="icon icon-pencil"></i> <span>Site Settings</span></a></li>
-
-        <li class="submenu"><a href="#"><i class="icon icon-info-sign"></i> <span>Error</span> </a>
-            <ul>
-                <li><a href="error404">Error 404</a></li>
-            </ul>
-        </li>
     </ul>
 </div>
+
 
 
 <!--sidebar-menu-->
