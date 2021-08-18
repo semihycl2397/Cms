@@ -22,7 +22,6 @@
 </div>
 <!--close-Header-part-->
 
-
 <!--top-Header-menu-->
 <div id="user-nav" class="navbar navbar-inverse">
     <ul class="nav">
@@ -91,8 +90,6 @@
     </ul>
 </div>
 
-
-
 <!--sidebar-menu-->
 
 <!--main-container-part-->
@@ -104,7 +101,6 @@
     </div>
     <!--End-breadcrumbs-->
 @yield('content')
-
 </div>
 
 <script src="{{asset('js/excanvas.min.js')}}"></script>
