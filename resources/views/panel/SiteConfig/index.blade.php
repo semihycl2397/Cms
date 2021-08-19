@@ -1,61 +1,56 @@
 @extends('layout.app')
 @section('content')
-<body>
-
-<div class="container">
-    <div class="container">
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1"> Bilgi Alanı:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="container-fluid">
         <form>
             <div class="form-group">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control" rows="3" id=""></textarea>
-
-        <div class="form-group">
-            <label for="usr">Adres:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">Telefon:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">Fax:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">E-mail:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">Facebook:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">Twitter:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">Instagram:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">Youtube:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
-        <div class="form-group">
-            <label for="usr">Blog:</label>
-            <input type="text" class="form-control" rows="3" id="">
-        </div>
+                <label for="exampleInputEmail1">Adres:</label>
+                <input type="email" class="form-control">
             </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Telefon:</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Fax:</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">E-mail:</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Facebook:</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Twitter:</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Instagram:</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Youtube:</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Blog:</label>
+                <input type="email" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Değişiklikleri Kaydet</button>
         </form>
-    </div>
-</div>
-<button type="button" class="btn btn-primary">Değişikleri Kaydet</button>
-</body>
-</html>
 
-<!--Footer-part-->
+    </div>
+
+@endsection
+
+@section('footer')
     <div class="row-fluid">
         <div id="footer" class="span12"> 2021 &copy; Semih Yücel. </a> </div>
     </div>
-    <!--end-Footer-part-->
 @endsection

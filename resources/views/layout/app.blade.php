@@ -100,8 +100,10 @@
 
     </div>
     <!--End-breadcrumbs-->
-@yield('content')
+    @yield('content')
 </div>
+
+@yield('footer')
 
 <script src="{{asset('js/excanvas.min.js')}}"></script>
 <script src="{{asset('js/jquery.min.js')}}"></script>
