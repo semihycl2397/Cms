@@ -9,6 +9,7 @@
                 </h3>
                 <hr>
             </div>
+            <input type="file" class="form-control" id="customFile" />
             <div class="card-body">
                 @if ($errors->any())
                     <div class="alert alert-danger">

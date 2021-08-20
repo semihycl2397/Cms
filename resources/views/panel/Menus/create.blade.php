@@ -10,7 +10,7 @@
                 <hr>
             </div>
             <select class="form-control">
-                <option>...İşlemi Seçiniz... </option>
+                <option value="{{null}}"> Seçim Yapınız </option>
                 <option>Varolan Menüye Ekle</option>
                 <option>Yeni Menü Oluştur</option>
 

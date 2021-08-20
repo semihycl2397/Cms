@@ -8,6 +8,12 @@
                     Video Ekle
                 </h3>
                 <hr>
+                <input type="file" class="form-control" id="customFile" />
+                <div class="form-group">
+                    <label for="exampleInputEmail1"><b>Video Adı:</b></label>
+                    <input type="text" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Ekle</button>
     <!--Footer-part-->
     <div class="row-fluid">
         <div id="footer" class="span12"> 2021 &copy; Semih Yücel. </a> </div>
