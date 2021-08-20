@@ -9,6 +9,12 @@
                 </h3>
                 <hr>
             </div>
+            <select class="form-control">
+                <option>...İşlemi Seçiniz... </option>
+                <option>Varolan Menüye Ekle</option>
+                <option>Yeni Menü Oluştur</option>
+
+            </select>
             <div class="card-body">
                 @if ($errors->any())
                     <div class="alert alert-danger">

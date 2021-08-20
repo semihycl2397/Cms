@@ -8,6 +8,7 @@
                     Resim Ekle
                 </h3>
                 <hr>
+                <input type="file" class="form-control" id="customFile" />
     <!--Footer-part-->
     <div class="row-fluid">
         <div id="footer" class="span12"> 2021 &copy; Semih Yücel. </a> </div>
