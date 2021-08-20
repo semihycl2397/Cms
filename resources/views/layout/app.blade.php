@@ -33,7 +33,7 @@
             <ul class="dropdown-menu">
                 <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
                 <li class="divider"></li>
-                <li><a href="login"><i class="icon-key"></i> Log Out</a></li>
+                <li><a href="{{route('Login.index')}}"><i class="icon-key"></i> Log Out</a></li>
             </ul>
         </li>
         </li>
