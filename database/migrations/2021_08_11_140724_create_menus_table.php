@@ -23,6 +23,11 @@ class CreateMenusTable extends Migration
             $table->tinyInteger('is_header');
             $table->tinyInteger('is_footer');
             $table->integer('content_id');
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->string('username');
+            $table->string('phone');
+            $table->string('dob');
             $table->timestamps();
         });
     }
