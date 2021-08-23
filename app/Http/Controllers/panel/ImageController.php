@@ -25,4 +25,12 @@ class ImageController extends BaseController
     {
         return view('panel.Images.album');
     }
+    public function apply()
+    {
+        return view('panel.Images.albindex');
+    }
+    public function apple()
+    {
+        return view('panel.Images.albcreate');
+    }
 }

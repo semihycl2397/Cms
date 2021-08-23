@@ -46,17 +46,22 @@ Route::get('/', function () {
         Route::get('/add', [DocumentController::class, 'app'])->name('Documents.create');
     });
 
-    Route::prefix('/images')->group(function () {
-        Route::get('/list', [ImageController::class, 'index'])->name('Images.index');
-        Route::get('/add', [ImageController::class, 'app'])->name('Images.create');
-        Route::get('/album', [ImageController::class, 'apps'])->name('Images.album');
+        Route::group(['prefix' => 'images'], function () {
+            Route::get('/list', [ImageController::class, 'index'])->name('Images.index');
+            Route::get('/add', [ImageController::class, 'app'])->name('Images.create');
+            Route::group(['prefix' => 'album'], function () {
+                Route::get('/list', [ImageController::class, 'apply'])->name('Images.albindex');
+                Route::get('/add', [ImageController::class, 'apple'])->name('Images.albcreate');
+            });
     });
 
-    Route::prefix('/videos')->group(function () {
-        Route::get('/list', [VideoController::class, 'index'])->name('Videos.index');
-        Route::get('/add', [VideoController::class, 'app'])->name('Videos.create');
-        Route::get('/album', [VideoController::class, 'apps'])->name('Videos.album');
-
+        Route::group(['prefix' => 'videos'], function () {
+            Route::get('/list', [VideoController::class, 'index'])->name('Videos.index');
+            Route::get('/add', [VideoController::class, 'app'])->name('Videos.create');
+            Route::group(['prefix' => 'album'], function () {
+                Route::get('/list', [VideoController::class, 'apply'])->name('Videos.albindex');
+                Route::get('/add', [VideoController::class, 'apple'])->name('Videos.albcreate');
+            });
     });
         Route::prefix('/login')->group(function () {
             Route::get('/login.', [LoginController::class, 'index'])->name('Login.index');

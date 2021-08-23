@@ -21,4 +21,12 @@ class VideoController extends BaseController
     {
         return view('panel.Videos.album');
     }
+    public function apply()
+    {
+        return view('panel.Videos.albindex');
+    }
+    public function apple()
+    {
+        return view('panel.Videos.albcreate');
+    }
 }

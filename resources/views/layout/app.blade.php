@@ -68,14 +68,17 @@
             <ul>
                 <li><a href="{{route('Images.index')}}">Image List</a></li>
                 <li><a href="{{route('Images.create')}}">Image Add</a></li>
-                <li><a href="{{route('Images.album')}}">Images Album </a></li>
+                <li><a href="{{route('Images.albindex')}}">Images Album </a></li>
+                <li><a href="{{route('Images.albcreate')}}">Images Album Add </a></li>
 
             </ul>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>Videos <span></span> </a>
             <ul>
                 <li><a href="{{route('Videos.index')}}">Video List</a></li>
                 <li><a href="{{route('Videos.create')}}">Video Add</a></li>
-                <li><a href="{{route('Videos.album')}}">Videos Album</a></li>
+                <li><a href="{{route('Videos.albindex')}}">Videos Album</a></li>
+                <li><a href="{{route('Videos.albcreate')}}">Videos Album Add</a></li>
+
             </ul>
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i>News <span></span> </a>
             <ul>
