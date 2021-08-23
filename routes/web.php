@@ -29,7 +29,6 @@ Route::get('/', function () {
     Route::prefix('/menus')->group(function () {
         Route::get('/list', [MenusController::class, 'index'])->name('Menus.index');
         Route::get('/add', [MenusController::class, 'app'])->name('Menus.create');
-        Route::get('students/list', [MenusController::class, 'getStudents'])->name('students.list');
     });
 
     Route::prefix('/news')->group(function () {
