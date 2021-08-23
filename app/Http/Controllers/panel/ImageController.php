@@ -11,11 +11,18 @@ class ImageController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function index(){
+    public function index()
+    {
         return view('panel.Images.index');
     }
 
-    public function app(){
+    public function app()
+    {
         return view('panel.Images.create');
+    }
+
+    public function apps()
+    {
+        return view('panel.Images.album');
     }
 }

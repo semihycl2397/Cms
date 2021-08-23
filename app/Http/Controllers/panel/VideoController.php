@@ -17,4 +17,8 @@ class VideoController extends BaseController
     public function app(){
         return view('panel.Videos.create');
     }
+    public function apps()
+    {
+        return view('panel.Videos.album');
+    }
 }

@@ -29,7 +29,6 @@ Route::get('/', function () {
     Route::prefix('/menus')->group(function () {
         Route::get('/list', [MenusController::class, 'index'])->name('Menus.index');
         Route::get('/add', [MenusController::class, 'app'])->name('Menus.create');
-        Route::get('students', [MenusController::class, 'index']);
         Route::get('students/list', [MenusController::class, 'getStudents'])->name('students.list');
     });
 
@@ -50,11 +49,14 @@ Route::get('/', function () {
     Route::prefix('/images')->group(function () {
         Route::get('/list', [ImageController::class, 'index'])->name('Images.index');
         Route::get('/add', [ImageController::class, 'app'])->name('Images.create');
+        Route::get('/album', [ImageController::class, 'apps'])->name('Images.album');
     });
 
     Route::prefix('/videos')->group(function () {
         Route::get('/list', [VideoController::class, 'index'])->name('Videos.index');
         Route::get('/add', [VideoController::class, 'app'])->name('Videos.create');
+        Route::get('/album', [VideoController::class, 'apps'])->name('Videos.album');
+
     });
         Route::prefix('/login')->group(function () {
             Route::get('/login.', [LoginController::class, 'index'])->name('Login.index');
