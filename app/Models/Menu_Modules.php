@@ -8,13 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Menu_Modules extends Model
 {
     protected $table = 'menu_modules';
-
+    protected $primaryKey = 'id';
     protected $fillable = ['
     name
-    email
-    email_verified_at
-    password
-    phone'];
+    url
+    locale'];
 
     public $timestamps = true;
 }

@@ -8,13 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Videos extends Model
 {
     protected $table = 'videos';
-
+    protected $primaryKey = 'id';
     protected $fillable = ['
-    name
-    email
-    email_verified_at
-    password
-    phone'];
+   video_url
+   user_id
+   is_published'];
 
     public $timestamps = true;
 }

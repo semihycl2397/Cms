@@ -8,13 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Files extends Model
 {
     protected $table = 'files';
-
+    protected $primaryKey = 'id';
     protected $fillable = ['
-    name
-    email
-    email_verified_at
-    password
-    phone'];
+    content_id
+    video_id
+    images_id
+    document_id'];
 
     public $timestamps = true;
 }

@@ -8,13 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Menu_Types extends Model
 {
     protected $table = 'menu_types';
-
+    protected $primaryKey = 'id';
     protected $fillable = ['
     name
-    email
-    email_verified_at
-    password
-    phone'];
+   locale'];
 
     public $timestamps = true;
 }

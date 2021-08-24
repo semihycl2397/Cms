@@ -8,13 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Metas extends Model
 {
     protected $table = 'metas';
-
+    protected $primaryKey = 'id';
     protected $fillable = ['
-    name
-    email
-    email_verified_at
-    password
-    phone'];
+   key
+   value'];
 
     public $timestamps = true;
 }

@@ -8,13 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Communication extends Model
 {
     protected $table = 'communication';
-
+    protected $primaryKey = 'id';
     protected $fillable = ['
     name
     email
-    email_verified_at
-    password
-    phone'];
+    title
+    phone
+    message'];
 
     public $timestamps = true;
 }

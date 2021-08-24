@@ -8,13 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Permission extends Model
 {
     protected $table = 'permission';
-
+    protected $primaryKey = 'id';
     protected $fillable = ['
     name
-    email
-    email_verified_at
-    password
-    phone'];
+   guard_name'];
 
     public $timestamps = true;
 }
