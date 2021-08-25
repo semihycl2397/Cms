@@ -13,8 +13,8 @@
 </head>
 <body>
 <div id="loginbox">
-    <form id="loginform" class="form-vertical" action="login">
-        <div class="control-group normal_text"> <h3><img src="{{asset('')}}" alt="Logo" /></h3></div>
+    <form id="loginform" class="form-vertical" action="">
+        <div class="control-group normal_text"> <h3><img src="" alt="Logo" /></h3></div>
         <div class="control-group">
             <div class="controls">
                 <div class="main_input_box">
@@ -30,8 +30,8 @@
             </div>
         </div>
         <div class="form-actions">
-            <span class="pull-left"><a href="" class="flip-link btn btn-info" id="to-recover">Lost password?</a></span>
-            <span class="pull-right"><a type="submit" href="/admin" class="btn btn-success" /> Login</span>
+            <span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Lost password?</a></span>
+            <span class="pull-right"><a type="submit" href="/admin" class="btn btn-success" /> Login </a> </span>
         </div>
     </form>
     <form id="recoverform" action="#" class="form-vertical">
@@ -44,12 +44,11 @@
         </div>
 
         <div class="form-actions">
-            <span class="pull-left"><a href="" class="flip-link btn btn-success" id="to-login">&laquo; Back to login</a></span>
-            <span class="pull-right"><a class="btn btn-info"/>Reecover</span>
+            <span class="pull-left"><a href="#" class="flip-link btn btn-success" id="to-login">&laquo; Back to login</a></span>
+            <span class="pull-right"><a class="btn btn-info"/>Reecover </a> </span>
         </div>
     </form>
 </div>
-
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <script src="{{asset('js/matrix.login.js')}}"></script>
 </body>
