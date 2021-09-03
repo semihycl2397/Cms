@@ -21,6 +21,7 @@ Route::get('/', function () {
 
     Route::prefix('/site-config')->group(function () {
         Route::get('/', [SiteConfigController::class, 'index'])->name('siteconfig.index');
+        Route::post('/submit', [SiteConfigController::class, 'create'])->name('submit');
     });
     Route::prefix('/communication')->group(function () {
         Route::get('/message-list', [CommunicationController::class, 'index'])->name('Communication.index');
