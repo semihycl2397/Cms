@@ -9,10 +9,10 @@
                 </h3>
                 <hr>
             </div>
-            <select class="form-control">
+            <select class="form-control" id="target_menu">
                 <option value="{{null}}"> Seçim Yapınız </option>
-                <option>Varolan Menüye Ekle</option>
-                <option>Yeni Menü Oluştur</option>
+                <option value="1">Varolan Menüye Ekle</option>
+                <option value="2">Yeni Menü Oluştur</option>
 
             </select>
             <div class="card-body">
@@ -34,7 +34,12 @@
                 @endif
             </div>
         </div>
-        <form>
+        <form id="add_target">
+            @csrf
+           burası yeni
+            <button class="btn btn-success float-right">Oluştur</button>
+        </form>
+        <form id="add_new">
             @csrf
             <div class="row mt-6 flex-column" style="display: flex;justify-content: space-between">
                 <div class="form-group ml-3">
@@ -57,4 +62,17 @@
         <div id="footer" class="span12"> 2021 &copy; Semih Yücel. </a> </div>
     </div>
     <!--end-Footer-part-->
+
+    <script>
+
+        $('#target_menu').change(function (){
+            if($(this).val() == 1){
+                $('#add_new').hide();
+                $('#add_target').show();
+            }else if($(this).val() == 2){
+                $('#add_new').show();
+                $('#add_target').hide();
+            }
+        })
+    </script>
 @endsection

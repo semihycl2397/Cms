@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class SiteConfig extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'info',
+        'adress',
+        'phone',
+    ];
+    protected $table= 'site_config';
+
 }

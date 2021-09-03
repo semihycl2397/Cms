@@ -12,6 +12,7 @@
     <link rel="stylesheet"  href="{{asset('/font-awesome/css/font-awesome.css')}}" />
     <link rel="stylesheet" href="{{asset('css/jquery.gritter.css')}}"/>
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script src="{{asset('js/jquery.min.js')}}"></script>
 
     @yield('css')
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
@@ -114,7 +115,6 @@
 @yield('footer')
 
 <script src="{{asset('js/excanvas.min.js')}}"></script>
-<script src="{{asset('js/jquery.min.js')}}"></script>
 <script src="{{asset('js/jquery.ui.custom.js')}}"></script>
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
 <script src="{{asset('js/jquery.flot.min.js')}}"></script>
