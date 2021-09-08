@@ -16,6 +16,15 @@
             <div class="form-group">
                 <label for="exampleInputEmail1"><b>Telefon:</b></label>
                 <input type="text" name="phone" class="form-control">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
             </div>
 {{--            <div class="form-group">--}}
 {{--                <label for="exampleInputEmail1"><b>Fax:</b></label>--}}

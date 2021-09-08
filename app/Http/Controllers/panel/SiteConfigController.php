@@ -19,7 +19,7 @@ class SiteConfigController extends BaseController
     }
     public function create(Request $request){
         $request->validate([
-        'phone'=>'min:5|max:20'
+        'phone'=>'min:5|max:20|numeric'
             ]);
         $obj=new SiteConfig();
         $obj->info=$request->info;
