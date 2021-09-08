@@ -49,6 +49,8 @@ Route::get('/', function () {
         Route::group(['prefix' => 'images'], function () {
             Route::get('/list', [ImageController::class, 'index'])->name('Images.index');
             Route::get('/add', [ImageController::class, 'app'])->name('Images.create');
+            Route::post('/add', [ImageController::class, 'createImage'])->name('post.image');
+
             Route::group(['prefix' => 'album'], function () {
                 Route::get('/list', [ImageController::class, 'apply'])->name('Images.albindex');
                 Route::get('/add', [ImageController::class, 'apple'])->name('Images.albcreate');
@@ -58,6 +60,8 @@ Route::get('/', function () {
         Route::group(['prefix' => 'videos'], function () {
             Route::get('/list', [VideoController::class, 'index'])->name('Videos.index');
             Route::get('/add', [VideoController::class, 'app'])->name('Videos.create');
+            Route::post('/add', [VideoController::class, 'createVideo'])->name('post.video');
+
             Route::group(['prefix' => 'album'], function () {
                 Route::get('/list', [VideoController::class, 'apply'])->name('Videos.albindex');
                 Route::get('/add', [VideoController::class, 'apple'])->name('Videos.albcreate');

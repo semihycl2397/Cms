@@ -13,16 +13,16 @@ class CreateMenusTable extends Migration
      */
     public function up()
     {
-        Schema::create('Menus', function (Blueprint $table) {
+        Schema::create('menus', function (Blueprint $table) {
             $table->id();
-            $table->integer('ust_menu_id');
-            $table->integer('type_id');
-            $table->string('order');
-            $table->integer('user_id');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('is_header');
-            $table->tinyInteger('is_footer');
-            $table->integer('content_id');
+            //$table->integer('ust_menu_id');
+            //$table->integer('type_id');
+            //$table->string('order');
+            //$table->integer('user_id');
+            //$table->tinyInteger('is_active');
+            //$table->tinyInteger('is_header');
+            //$table->tinyInteger('is_footer');
+            //$table->integer('content_id');
             $table->string('name');
             $table->string('email')->unique();
             $table->string('username');

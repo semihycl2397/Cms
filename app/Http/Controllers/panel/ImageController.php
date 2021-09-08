@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers\panel;
 
+use App\Models\Images;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 
 class ImageController extends BaseController
@@ -15,10 +17,32 @@ class ImageController extends BaseController
     {
         return view('panel.Images.index');
     }
-
-    public function app()
+    public function app(){
+        $images=Images::all();
+        return view('panel.Images.create',compact('images'));
+    }
+    public function createImage(Request $request)
     {
-        return view('panel.Images.create');
+
+        $request->validate([
+
+            'name' => 'min:3,required'
+
+        ]);
+        if ($request->hasFile("type")) {
+            $request->validate([
+                'type' => 'mimes:jpg,png,img'
+            ]);
+
+            $request->type->store('image', 'public');
+            $obj = new Images();
+            $obj->name = $request->name;
+            $obj->images_url = $request->type->hashName();
+            $obj->save();
+        }
+
+        return redirect()->route('Images.create');
+
     }
 
     public function apps()
