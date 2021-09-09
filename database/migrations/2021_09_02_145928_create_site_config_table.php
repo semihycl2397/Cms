@@ -17,7 +17,7 @@ class CreateSiteConfigTable extends Migration
             $table->id();
             $table->text("info");
             $table->text('adress');
-            $table->integer('phone');
+            $table->text('phone');
             $table->timestamps();
         });
     }

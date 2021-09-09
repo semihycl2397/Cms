@@ -19,7 +19,7 @@ class SiteConfigController extends BaseController
     }
     public function create(Request $request){
         $request->validate([
-        'phone'=>'min:5|max:20|numeric'
+            'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|size:11',
             ]);
         $obj=new SiteConfig();
         $obj->info=$request->info;
