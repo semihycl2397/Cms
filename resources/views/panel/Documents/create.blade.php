@@ -33,7 +33,7 @@
             @csrf
             <div class="row mt-6 flex-column" style="display: flex;justify-content: space-between">
                 <div class="form-group ml-3">
-                    <label id="inputGroup-sizing-default" for="exampleInputEmail1">Blog</label>
+                    <label id="inputGroup-sizing-default" for="exampleInputEmail1">Döküman Adı</label>
                     <input type="text" name="" id="" aria-label="Instagram" class="form-control">
                 </div>
                 <div class="form-group ml-6">

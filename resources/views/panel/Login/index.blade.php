@@ -14,7 +14,7 @@
 <body>
 <div id="loginbox">
     <form id="loginform" class="form-vertical" action="">
-        <div class="control-group normal_text"> <h3><img src="" alt="Logo" /></h3></div>
+        <div class="control-group normal_text"> <h3><img src="" /></h3></div>
         <div class="control-group">
             <div class="controls">
                 <div class="main_input_box">
